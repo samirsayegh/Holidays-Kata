@@ -8,6 +8,14 @@ import org.joda.time.format.DateTimeFormatter;
 public class DateUtility {
 
     public boolean isValidFormat(String dateString) {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
+        try {
+            DateTime dateTime = dateTimeFormatter.parseDateTime(dateString);
+        }
+        catch (IllegalArgumentException ex){
+            System.out.println(ex.toString());
+            return false;
+        }
         return true;
     }
 
