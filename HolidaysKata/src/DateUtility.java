@@ -11,7 +11,7 @@ public class DateUtility {
     private DateTime endDate;
 
     private final String FORMAT = "dd/MM/yyyy";
-    DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(FORMAT);
+    private DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(FORMAT);
 
     public boolean isValidFormat(String dateString) {
         try {
