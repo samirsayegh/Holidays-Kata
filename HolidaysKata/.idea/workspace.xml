@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca338116-3d60-4659-8d3e-1779a58f0cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/HolidaysKataTest.java" afterPath="$PROJECT_DIR$/test/HolidaysKataTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DateUtility.java" />
     </list>
     <ignored path="HolidaysKata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,14 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2037037">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateUtility.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.055555556">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/HolidaysKataAppTest.groovy" />
         <option value="$PROJECT_DIR$/test/TestHolidaysKata.java" />
         <option value="$PROJECT_DIR$/test/HolidaysKataTest.java" />
+        <option value="$PROJECT_DIR$/src/DateUtility.java" />
       </list>
     </option>
   </component>
@@ -216,6 +226,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -713,12 +726,12 @@
       <workItem from="1452450119793" duration="2587000" />
       <workItem from="1452456387193" duration="1432000" />
       <workItem from="1454344695682" duration="53000" />
-      <workItem from="1454344822757" duration="1739000" />
+      <workItem from="1454344822757" duration="1822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6158000" />
+    <option name="totallyTimeSpent" value="6241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -832,11 +845,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2037037">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055555556">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
