@@ -11,8 +11,7 @@ public class DateUtility {
         DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         try {
             DateTime dateTime = dateTimeFormatter.parseDateTime(dateString);
-        }
-        catch (IllegalArgumentException ex){
+        } catch (IllegalArgumentException ex) {
             System.out.println(ex.toString());
             return false;
         }
