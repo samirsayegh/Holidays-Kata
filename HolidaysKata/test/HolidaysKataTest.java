@@ -61,4 +61,12 @@ public class HolidaysKataTest {
         DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         Assert.assertEquals(dateTimeFormatter.parseDateTime(date), dateUtility.getEndDate());
     }
+
+    @Test
+    public void endDateIsSettedWrongAsNull() {
+        DateUtility dateUtility = new DateUtility();
+        String date = "01/2016";
+        dateUtility.setEndDate(date);
+        Assert.assertEquals(null, dateUtility.getEndDate());
+    }
 }
