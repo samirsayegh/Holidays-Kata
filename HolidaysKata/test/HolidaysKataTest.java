@@ -69,4 +69,15 @@ public class HolidaysKataTest {
         dateUtility.setEndDate(date);
         Assert.assertEquals(null, dateUtility.getEndDate());
     }
+
+    @Test
+    public void isDateInsideTheInterval() {
+        DateUtility dateUtility = new DateUtility();
+        String startDate = "01/01/2016";
+        String endDate = "01/05/2016";
+        String midDate = "01/03/2016";
+        dateUtility.setInitialDate(startDate);
+        dateUtility.setEndDate(endDate);
+        Assert.assertTrue(null, dateUtility.isDateInsideInterval(midDate));
+    }
 }
