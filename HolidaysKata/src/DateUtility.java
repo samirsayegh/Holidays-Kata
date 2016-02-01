@@ -15,7 +15,7 @@ public class DateUtility {
 
     public boolean isValidFormat(String dateString) {
         try {
-            DateTime dateTime = dateTimeFormatter.parseDateTime(dateString);
+            dateTimeFormatter.parseDateTime(dateString);
             return true;
         } catch (IllegalArgumentException ex) {
             System.out.println(ex.toString());
@@ -41,8 +41,7 @@ public class DateUtility {
 
     private DateTime dateFromString(String dateString) {
         try {
-            DateTime dateTime = dateTimeFormatter.parseDateTime(dateString);
-            return dateTime;
+            return dateTimeFormatter.parseDateTime(dateString);
         } catch (IllegalArgumentException ex) {
             System.out.println(ex.toString());
             return null;
