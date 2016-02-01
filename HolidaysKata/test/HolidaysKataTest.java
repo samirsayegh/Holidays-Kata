@@ -26,4 +26,11 @@ public class HolidaysKataTest {
         boolean isValid = dateUtility.isValidFormat("01/21/16");
         Assert.assertFalse(isValid);
     }
+
+    @Test
+    public void inputHasNotValidFormatDay() {
+        DateUtility dateUtility = new DateUtility();
+        boolean isValid = dateUtility.isValidFormat("32/01/16");
+        Assert.assertFalse(isValid);
+    }
 }
