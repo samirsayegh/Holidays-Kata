@@ -1,3 +1,5 @@
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -32,5 +34,14 @@ public class HolidaysKataTest {
         DateUtility dateUtility = new DateUtility();
         boolean isValid = dateUtility.isValidFormat("32/01/16");
         Assert.assertFalse(isValid);
+    }
+
+    @Test
+    public void initialDateIsSetted() {
+        DateUtility dateUtility = new DateUtility();
+        String date = "01/01/2016";
+        dateUtility.setInitialDate(date);
+        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
+        Assert.assertEquals(dateTimeFormatter.parseDateTime(date), dateUtility.getInitialDate());
     }
 }
