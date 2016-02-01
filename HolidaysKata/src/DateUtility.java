@@ -47,4 +47,8 @@ public class DateUtility {
             return null;
         }
     }
+
+    public boolean isDateInsideInterval(String midDate) {
+        return true;
+    }
 }
