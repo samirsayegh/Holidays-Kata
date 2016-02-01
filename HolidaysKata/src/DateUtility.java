@@ -10,26 +10,21 @@ public class DateUtility {
     private DateTime initialDate;
     private DateTime endDate;
 
+    private final String FORMAT = "dd/MM/yyyy";
+    DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(FORMAT);
+
     public boolean isValidFormat(String dateString) {
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         try {
             DateTime dateTime = dateTimeFormatter.parseDateTime(dateString);
+            return true;
         } catch (IllegalArgumentException ex) {
             System.out.println(ex.toString());
             return false;
         }
-        return true;
     }
 
     public void setInitialDate(String initialDate) {
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
-        try {
-            DateTime dateTime = dateTimeFormatter.parseDateTime(initialDate);
-            this.initialDate = dateTime;
-        } catch (IllegalArgumentException ex) {
-            System.out.println(ex.toString());
-            this.initialDate = null;
-        }
+        this.initialDate = dateFromString(initialDate);
     }
 
     public DateTime getInitialDate() {
@@ -37,17 +32,20 @@ public class DateUtility {
     }
 
     public void setEndDate(String endDate) {
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
-        try {
-            DateTime dateTime = dateTimeFormatter.parseDateTime(endDate);
-            this.endDate = dateTime;
-        } catch (IllegalArgumentException ex) {
-            System.out.println(ex.toString());
-            this.endDate = null;
-        }
+        this.endDate = dateFromString(endDate);
     }
 
     public DateTime getEndDate() {
         return endDate;
+    }
+
+    private DateTime dateFromString(String dateString) {
+        try {
+            DateTime dateTime = dateTimeFormatter.parseDateTime(dateString);
+            return dateTime;
+        } catch (IllegalArgumentException ex) {
+            System.out.println(ex.toString());
+            return null;
+        }
     }
 }
