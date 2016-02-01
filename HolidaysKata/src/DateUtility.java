@@ -7,6 +7,8 @@ import org.joda.time.format.DateTimeFormatter;
  */
 public class DateUtility {
 
+    private DateTime initialDate;
+
     public boolean isValidFormat(String dateString) {
         DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         try {
@@ -18,4 +20,18 @@ public class DateUtility {
         return true;
     }
 
+    public void setInitialDate(String initialDate) {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
+        try {
+            DateTime dateTime = dateTimeFormatter.parseDateTime(initialDate);
+            this.initialDate = dateTime;
+        } catch (IllegalArgumentException ex) {
+            System.out.println(ex.toString());
+            this.initialDate = null;
+        }
+    }
+
+    public DateTime getInitialDate() {
+        return initialDate;
+    }
 }
