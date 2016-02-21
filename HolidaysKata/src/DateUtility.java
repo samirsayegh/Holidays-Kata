@@ -55,6 +55,6 @@ public class DateUtility {
     }
 
     public boolean isInitialDateBeforeEndDate(DateTime startDate, DateTime endDate) {
-        return true;
+        return startDate.isBefore(endDate);
     }
 }
