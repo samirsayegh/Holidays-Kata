@@ -59,6 +59,9 @@ public class DateUtility {
     }
 
     public boolean isIntervalInsideInterval(String intervalStartDate, String intervalEndDate) {
-        return true;
+        DateTime intStartDate = dateFromString(intervalStartDate);
+        DateTime intEndDate = dateFromString(intervalEndDate);
+        Interval interval = new Interval(initialDate, endDate);
+        return interval.contains(new Interval(intStartDate, intEndDate));
     }
 }
