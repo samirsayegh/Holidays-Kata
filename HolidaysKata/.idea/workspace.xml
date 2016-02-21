@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca338116-3d60-4659-8d3e-1779a58f0cf1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/HolidaysKataTest.java" afterPath="$PROJECT_DIR$/test/HolidaysKataTest.java" />
     </list>
     <ignored path="HolidaysKata.iws" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4669967">
-              <caret line="136" column="59" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.74752474">
+              <caret line="147" column="80" selection-start-line="147" selection-start-column="80" selection-end-line="147" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1373#1374#0" expanded="true" />
@@ -754,7 +755,7 @@
       <workItem from="1454344822757" duration="9160000" />
       <workItem from="1455360418540" duration="2975000" />
       <workItem from="1456073911101" duration="1375000" />
-      <workItem from="1456075915604" duration="1804000" />
+      <workItem from="1456075915604" duration="2117000" />
     </task>
     <servers />
   </component>
@@ -791,7 +792,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19733000" />
+    <option name="totallyTimeSpent" value="20046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -955,7 +956,7 @@
     <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1373#1374#0" expanded="true" />
@@ -968,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4669967">
-          <caret line="136" column="59" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.74752474">
+          <caret line="147" column="80" selection-start-line="147" selection-start-column="80" selection-end-line="147" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,6 +3,7 @@ import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 /**
  * Created by samir on 1/10/2016.
@@ -142,7 +143,9 @@ public class HolidaysKataTest {
         String intervalEndDate = "02/05/2016";
         dateUtility.setInitialDate(startDate);
         dateUtility.setEndDate(endDate);
-        Assert.assertFalse(dateUtility.isIntervalInsideInterval(intervalStartDate, intervalEndDate));
+        ExpectedException expectedException = ExpectedException.none();
+        expectedException.expect(IllegalArgumentException.class);
+        dateUtility.isIntervalInsideInterval(intervalStartDate, intervalEndDate);
     }
 
 
