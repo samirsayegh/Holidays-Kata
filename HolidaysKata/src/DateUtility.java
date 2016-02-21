@@ -71,4 +71,8 @@ public class DateUtility {
     public int numberOfDays() {
         return Days.daysIn(getInterval()).getDays();
     }
+
+    public boolean isIntervalInTheSameMonth() {
+        return true;
+    }
 }
