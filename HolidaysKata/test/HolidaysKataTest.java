@@ -165,4 +165,14 @@ public class HolidaysKataTest {
         dateUtility.setEndDate(endDate);
         Assert.assertEquals(5, dateUtility.numberOfDays());
     }
+
+    @Test
+    public void isIntervalInTheSameMonth() {
+        DateUtility dateUtility = new DateUtility();
+        String startDate = "01/01/2016";
+        String endDate = "01/05/2016";
+        dateUtility.setInitialDate(startDate);
+        dateUtility.setEndDate(endDate);
+        Assert.assertTrue(dateUtility.isIntervalInTheSameMonth());
+    }
 }
