@@ -9,6 +9,8 @@ import org.junit.Test;
  */
 public class HolidaysKataTest {
 
+    DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
+
     @Test
     public void inputHasValidFormat() {
         DateUtility dateUtility = new DateUtility();
@@ -42,7 +44,6 @@ public class HolidaysKataTest {
         DateUtility dateUtility = new DateUtility();
         String date = "01/01/2016";
         dateUtility.setInitialDate(date);
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         Assert.assertEquals(dateTimeFormatter.parseDateTime(date), dateUtility.getInitialDate());
     }
 
@@ -59,7 +60,6 @@ public class HolidaysKataTest {
         DateUtility dateUtility = new DateUtility();
         String date = "01/01/2016";
         dateUtility.setEndDate(date);
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         Assert.assertEquals(dateTimeFormatter.parseDateTime(date), dateUtility.getEndDate());
     }
 
@@ -96,7 +96,6 @@ public class HolidaysKataTest {
     @Test
     public void isInitialDateBeforeEndDate() {
         DateUtility dateUtility = new DateUtility();
-        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
         DateTime startDate = dateTimeFormatter.parseDateTime("01/01/2016");
         DateTime endDate = dateTimeFormatter.parseDateTime("01/05/2016");
         Assert.assertTrue(dateUtility.isInitialDateBeforeEndDate(startDate, endDate));
