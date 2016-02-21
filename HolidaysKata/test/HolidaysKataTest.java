@@ -146,5 +146,13 @@ public class HolidaysKataTest {
         dateUtility.isIntervalInsideInterval(intervalStartDate, intervalEndDate);
     }
 
-
+    @Test
+    public void daysInsidePeriod() {
+        DateUtility dateUtility = new DateUtility();
+        String startDate = "01/01/2016";
+        String endDate = "04/01/2016";
+        dateUtility.setInitialDate(startDate);
+        dateUtility.setEndDate(endDate);
+        Assert.assertEquals(4, dateUtility.numberOfDays());
+    }
 }
