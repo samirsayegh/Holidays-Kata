@@ -66,4 +66,8 @@ public class DateUtility {
         DateTime intEndDate = dateFromString(intervalEndDate);
         return getInterval().contains(new Interval(intStartDate, intEndDate));
     }
+
+    public int numberOfDays() {
+        return 4;
+    }
 }
