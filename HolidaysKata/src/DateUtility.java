@@ -53,4 +53,8 @@ public class DateUtility {
         Interval interval = new Interval(initialDate, endDate);
         return interval.contains(dateFromString(midDate));
     }
+
+    public boolean isInitialDateBeforeEndDate(DateTime startDate, DateTime endDate) {
+        return true;
+    }
 }
