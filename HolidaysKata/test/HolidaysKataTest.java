@@ -134,7 +134,7 @@ public class HolidaysKataTest {
         Assert.assertFalse(dateUtility.isIntervalInsideInterval(intervalStartDate, intervalEndDate));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void isIntervalIncorrectInInsideIntervalFunction() {
         DateUtility dateUtility = new DateUtility();
         String startDate = "01/01/2016";
@@ -143,8 +143,6 @@ public class HolidaysKataTest {
         String intervalEndDate = "02/05/2016";
         dateUtility.setInitialDate(startDate);
         dateUtility.setEndDate(endDate);
-        ExpectedException expectedException = ExpectedException.none();
-        expectedException.expect(IllegalArgumentException.class);
         dateUtility.isIntervalInsideInterval(intervalStartDate, intervalEndDate);
     }
 
