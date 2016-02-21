@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca338116-3d60-4659-8d3e-1779a58f0cf1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HolidaysKataApp.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/HolidaysKataTest.java" afterPath="$PROJECT_DIR$/test/HolidaysKataTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateUtility.java" afterPath="$PROJECT_DIR$/src/DateUtility.java" />
     </list>
     <ignored path="HolidaysKata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/HolidaysKata$HolidaysKataTest.coverage" NAME="HolidaysKataTest Coverage Results" MODIFIED="1454361792318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/HolidaysKata$HolidaysKataTest.coverage" NAME="HolidaysKataTest Coverage Results" MODIFIED="1456075275707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.537037">
-              <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,15 +40,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateUtility.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DateUtility.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.77557755">
+              <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/HolidaysKataAppTest.groovy" />
         <option value="$PROJECT_DIR$/test/TestHolidaysKata.java" />
-        <option value="$PROJECT_DIR$/src/DateUtility.java" />
         <option value="$PROJECT_DIR$/test/HolidaysKataTest.java" />
+        <option value="$PROJECT_DIR$/src/DateUtility.java" />
       </list>
     </option>
   </component>
@@ -753,17 +749,11 @@
       <workItem from="1454344695682" duration="53000" />
       <workItem from="1454344822757" duration="9160000" />
       <workItem from="1455360418540" duration="2975000" />
-      <workItem from="1456073911101" duration="1171000" />
+      <workItem from="1456073911101" duration="1375000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HolidaysKataTest - 2016.02.01 at 19h 44m 11s.xml">
-      <configuration name="HolidaysKataTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HolidaysKataTest - 2016.02.01 at 19h 47m 37s.xml">
-      <configuration name="HolidaysKataTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HolidaysKataTest - 2016.02.01 at 19h 48m 43s.xml">
       <configuration name="HolidaysKataTest" configurationId="JUnit" />
     </history-entry>
@@ -788,9 +778,15 @@
     <history-entry file="HolidaysKataTest - 2016.02.01 at 22h 23m 13s.xml">
       <configuration name="HolidaysKataTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HolidaysKataTest - 2016.02.21 at 18h 18m 07s.xml">
+      <configuration name="HolidaysKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HolidaysKataTest - 2016.02.21 at 18h 21m 17s.xml">
+      <configuration name="HolidaysKataTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17725000" />
+    <option name="totallyTimeSpent" value="17929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -803,7 +799,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -817,7 +814,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -858,8 +854,6 @@
           <caret line="17" column="30" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,8 +874,6 @@
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,22 +915,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
+    <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
+    <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.537037">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.77557755">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

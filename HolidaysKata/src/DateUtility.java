@@ -1,4 +1,5 @@
 import org.joda.time.DateTime;
+import org.joda.time.Interval;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
@@ -49,6 +50,7 @@ public class DateUtility {
     }
 
     public boolean isDateInsideInterval(String midDate) {
-        return true;
+        Interval interval = new Interval(initialDate, endDate);
+        return interval.contains(dateFromString(midDate));
     }
 }
