@@ -57,4 +57,8 @@ public class DateUtility {
     public boolean isInitialDateBeforeEndDate(DateTime startDate, DateTime endDate) {
         return startDate.isBefore(endDate);
     }
+
+    public boolean isIntervalInsideInterval(String intervalStartDate, String intervalEndDate) {
+        return true;
+    }
 }
