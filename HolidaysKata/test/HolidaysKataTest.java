@@ -153,7 +153,7 @@ public class HolidaysKataTest {
         String endDate = "04/01/2016";
         dateUtility.setInitialDate(startDate);
         dateUtility.setEndDate(endDate);
-        Assert.assertEquals(4, dateUtility.numberOfDays());
+        Assert.assertEquals(3, dateUtility.numberOfDays());
     }
 
     @Test
@@ -163,6 +163,6 @@ public class HolidaysKataTest {
         String endDate = "06/01/2016";
         dateUtility.setInitialDate(startDate);
         dateUtility.setEndDate(endDate);
-        Assert.assertEquals(6, dateUtility.numberOfDays());
+        Assert.assertEquals(5, dateUtility.numberOfDays());
     }
 }
