@@ -49,9 +49,12 @@ public class DateUtility {
         }
     }
 
+    private Interval getInterval() {
+        return new Interval(initialDate, endDate);
+    }
+
     public boolean isDateInsideInterval(String midDate) {
-        Interval interval = new Interval(initialDate, endDate);
-        return interval.contains(dateFromString(midDate));
+        return getInterval().contains(dateFromString(midDate));
     }
 
     public boolean isInitialDateBeforeEndDate(DateTime startDate, DateTime endDate) {
@@ -61,7 +64,6 @@ public class DateUtility {
     public boolean isIntervalInsideInterval(String intervalStartDate, String intervalEndDate) {
         DateTime intStartDate = dateFromString(intervalStartDate);
         DateTime intEndDate = dateFromString(intervalEndDate);
-        Interval interval = new Interval(initialDate, endDate);
-        return interval.contains(new Interval(intStartDate, intEndDate));
+        return getInterval().contains(new Interval(intStartDate, intEndDate));
     }
 }
