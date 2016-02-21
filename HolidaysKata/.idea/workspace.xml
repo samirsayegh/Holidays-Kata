@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca338116-3d60-4659-8d3e-1779a58f0cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateUtility.java" afterPath="$PROJECT_DIR$/src/DateUtility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/HolidaysKataTest.java" afterPath="$PROJECT_DIR$/test/HolidaysKataTest.java" />
     </list>
     <ignored path="HolidaysKata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/HolidaysKata$HolidaysKataTest.coverage" NAME="HolidaysKataTest Coverage Results" MODIFIED="1456077368706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/HolidaysKata$HolidaysKataTest.coverage" NAME="HolidaysKataTest Coverage Results" MODIFIED="1456077692351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.4669967">
+              <caret line="136" column="59" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateUtility.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DateUtility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74752474">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1373#1374#0" expanded="true" />
@@ -78,8 +78,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/HolidaysKataAppTest.groovy" />
         <option value="$PROJECT_DIR$/test/TestHolidaysKata.java" />
-        <option value="$PROJECT_DIR$/test/HolidaysKataTest.java" />
         <option value="$PROJECT_DIR$/src/DateUtility.java" />
+        <option value="$PROJECT_DIR$/test/HolidaysKataTest.java" />
       </list>
     </option>
   </component>
@@ -754,17 +754,11 @@
       <workItem from="1454344822757" duration="9160000" />
       <workItem from="1455360418540" duration="2975000" />
       <workItem from="1456073911101" duration="1375000" />
-      <workItem from="1456075915604" duration="1619000" />
+      <workItem from="1456075915604" duration="1804000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HolidaysKataTest - 2016.02.01 at 22h 23m 13s.xml">
-      <configuration name="HolidaysKataTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HolidaysKataTest - 2016.02.21 at 18h 18m 07s.xml">
-      <configuration name="HolidaysKataTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HolidaysKataTest - 2016.02.21 at 18h 21m 17s.xml">
       <configuration name="HolidaysKataTest" configurationId="JUnit" />
     </history-entry>
@@ -789,9 +783,15 @@
     <history-entry file="HolidaysKataTest - 2016.02.21 at 18h 56m 10s.xml">
       <configuration name="HolidaysKataTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HolidaysKataTest - 2016.02.21 at 18h 59m 18s.xml">
+      <configuration name="HolidaysKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 01m 33s.xml">
+      <configuration name="HolidaysKataTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19548000" />
+    <option name="totallyTimeSpent" value="19733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -952,26 +952,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DateUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74752474">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1373#1374#0" expanded="true" />
             <element signature="e#1430#1431#0" expanded="true" />
             <element signature="e#1489#1490#0" expanded="true" />
             <element signature="e#1559#1560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4669967">
+          <caret line="136" column="59" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
