@@ -76,4 +76,8 @@ public class DateUtility {
     public boolean isIntervalInTheSameMonth() {
         return Months.monthsIn(getInterval()).getMonths() == 0;
     }
+
+    public boolean isIntervalInTheSameYear() {
+        return true;
+    }
 }
