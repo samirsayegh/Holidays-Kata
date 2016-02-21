@@ -155,4 +155,14 @@ public class HolidaysKataTest {
         dateUtility.setEndDate(endDate);
         Assert.assertEquals(4, dateUtility.numberOfDays());
     }
+
+    @Test
+    public void daysInsidePeriod1() {
+        DateUtility dateUtility = new DateUtility();
+        String startDate = "01/01/2016";
+        String endDate = "06/01/2016";
+        dateUtility.setInitialDate(startDate);
+        dateUtility.setEndDate(endDate);
+        Assert.assertEquals(6, dateUtility.numberOfDays());
+    }
 }
