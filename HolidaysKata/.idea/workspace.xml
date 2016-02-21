@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca338116-3d60-4659-8d3e-1779a58f0cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateUtility.java" afterPath="$PROJECT_DIR$/src/DateUtility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/HolidaysKataTest.java" afterPath="$PROJECT_DIR$/test/HolidaysKataTest.java" />
     </list>
     <ignored path="HolidaysKata.iws" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/HolidaysKata$HolidaysKataTest.coverage" NAME="HolidaysKataTest Coverage Results" MODIFIED="1456078783775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/HolidaysKata$HolidaysKataTest.coverage" NAME="HolidaysKataTest Coverage Results" MODIFIED="1456078989838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="HolidaysKataTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74752474">
-              <caret line="195" column="46" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.5792079">
+              <caret line="199" column="42" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +84,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/HolidaysKataAppTest.groovy" />
         <option value="$PROJECT_DIR$/test/TestHolidaysKata.java" />
-        <option value="$PROJECT_DIR$/test/HolidaysKataTest.java" />
         <option value="$PROJECT_DIR$/src/DateUtility.java" />
+        <option value="$PROJECT_DIR$/test/HolidaysKataTest.java" />
       </list>
     </option>
   </component>
@@ -762,17 +760,11 @@
       <workItem from="1454344822757" duration="9160000" />
       <workItem from="1455360418540" duration="2975000" />
       <workItem from="1456073911101" duration="1375000" />
-      <workItem from="1456075915604" duration="2991000" />
+      <workItem from="1456075915604" duration="3075000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 08m 35s.xml">
-      <configuration name="HolidaysKataTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 11m 38s.xml">
-      <configuration name="HolidaysKataTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 12m 27s.xml">
       <configuration name="HolidaysKataTest" configurationId="JUnit" />
     </history-entry>
@@ -797,9 +789,15 @@
     <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 19m 45s.xml">
       <configuration name="HolidaysKataTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 21m 51s.xml">
+      <configuration name="HolidaysKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HolidaysKataTest - 2016.02.21 at 19h 23m 11s.xml">
+      <configuration name="HolidaysKataTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20920000" />
+    <option name="totallyTimeSpent" value="21004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -813,7 +811,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23645833" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23645833" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1000,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/HolidaysKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74752474">
-          <caret line="195" column="46" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.5792079">
+          <caret line="199" column="42" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
