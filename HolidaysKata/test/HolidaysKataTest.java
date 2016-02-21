@@ -100,4 +100,12 @@ public class HolidaysKataTest {
         DateTime endDate = dateTimeFormatter.parseDateTime("01/05/2016");
         Assert.assertTrue(dateUtility.isInitialDateBeforeEndDate(startDate, endDate));
     }
+
+    @Test
+    public void isInitialDateNotBeforeEndDate() {
+        DateUtility dateUtility = new DateUtility();
+        DateTime startDate = dateTimeFormatter.parseDateTime("01/01/2016");
+        DateTime endDate = dateTimeFormatter.parseDateTime("01/05/2016");
+        Assert.assertFalse(dateUtility.isInitialDateBeforeEndDate(startDate, endDate));
+    }
 }
