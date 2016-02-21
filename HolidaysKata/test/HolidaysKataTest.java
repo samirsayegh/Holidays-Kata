@@ -1,3 +1,4 @@
+import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.junit.Assert;
@@ -90,5 +91,14 @@ public class HolidaysKataTest {
         dateUtility.setInitialDate(startDate);
         dateUtility.setEndDate(endDate);
         Assert.assertFalse(dateUtility.isDateInsideInterval(midDate));
+    }
+
+    @Test
+    public void isInitialDateBeforeEndDate() {
+        DateUtility dateUtility = new DateUtility();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("dd/MM/yyyy");
+        DateTime startDate = dateTimeFormatter.parseDateTime("01/01/2016");
+        DateTime endDate = dateTimeFormatter.parseDateTime("01/05/2016");
+        Assert.assertTrue(dateUtility.isInitialDateBeforeEndDate(startDate, endDate));
     }
 }
